@@ -2,3 +2,14 @@
     display: flex;
     gap:10px;
 }
+
+.link{
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    padding-bottom:3px;
+}
+
+.active{
+   border-bottom: 3px solid #000;
+}

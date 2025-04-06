@@ -1,0 +1,17 @@
+.container{
+    background:white;
+    color:black;
+    display:flex;
+    height:100px;
+    padding-inline:10px;
+
+    .navlinks{
+        display: flex;
+        gap:10px;
+    }
+}
+
+.logo{
+    width:60px !important;
+    // height:2rem !important;
+}

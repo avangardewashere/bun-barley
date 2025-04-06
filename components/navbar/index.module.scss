@@ -9,6 +9,19 @@
         display: flex;
         gap:10px;
     }
+    .logoBox{
+        display: flex;
+        padding:10px 20px;
+        gap:10px;
+        justify-content: space-between;
+    .actions{
+        display: flex;
+        gap:2px;
+        justify-items: center;
+        align-items: center;
+        scale:1.5;
+    }
+    }
 }
 
 .logo{

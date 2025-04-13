@@ -5,7 +5,7 @@ import clsx from "clsx"
     return (
         <div className={clsx(styles.hero)}>
             <div className={clsx(styles.imageContainer)}>
-                <Image src={"/assets/images/pictures/hero.webp"} alt="hero" width={1000} height={1000} />
+                <Image fill src={"/assets/images/pictures/hero.webp"} alt="hero"   />
             </div>
         </div>
     )

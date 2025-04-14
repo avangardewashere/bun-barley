@@ -1,0 +1,44 @@
+.prodCard {
+    width: 200px;
+    height: 340px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    background-color: #faf9f9;
+    
+    .imgBox {
+        width: 100%;
+        aspect-ratio: 1/1;
+        position: relative;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 20px;
+        font-size: 10px;
+        width: 100%;
+        p{
+            width: 100%;
+            text-align: left;
+        }
+
+        .amount {
+            displaY: flex;
+            gap: 20px;
+            font-size:12px;
+        }
+        
+    }
+    .Sbutton{
+        width: 100%;
+        font-size: 12px;
+        padding: 10px 0;
+        text-align: center;
+        background-color: transparent;
+        color: #000;
+        border: 1px solid #000;
+        border-radius: 6px;
+    }
+}

@@ -1,0 +1,19 @@
+.container {
+  h3 {
+    font-size: 30px;
+    margin: 10px;
+  }
+  text-align: center;
+  background: rgb(243, 243, 243);
+
+  padding: 20px;
+  .testContainer {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}

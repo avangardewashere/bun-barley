@@ -1,5 +1,5 @@
 .container {
-    width: 80%;
+    width: fit-content;
     background: white;
     color: black;
     display: flex;
@@ -10,13 +10,13 @@
     margin:0 auto;
     gap:10px;
 
- 
+    h3 {
+        font-weight: 500;
+        font-size: 25px;
+    }
 
     p {
-        h3 {
-            font-weight: 500;
-            font-size: 25px;
-        }
+    
         text-align: left;
        font-size:12px;
         margin: 10px 0 20px;

@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import NotifBar from "@/components/notifbar";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,9 @@ export default function RootLayout({
         <NotifBar/>
         <Navbar/> 
         {children}
+        <br />
+        <hr style={{color:"#00000050" ,opacity:.5 }}/>
+        <Footer/> 
       </body>
     </html>
   );

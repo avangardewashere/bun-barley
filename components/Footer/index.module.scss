@@ -1,0 +1,22 @@
+.container{
+    margin:10px 0 30px;
+    .groupBox{
+        display:flex;
+        gap:20px;
+        padding:20px 40px;
+    }
+    .group{
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+        .topic{
+            font-size: 18px;
+            margin:10px 0;
+        }
+    }
+    .copyright{
+        text-align: center;
+        font-size: 14px;
+        color:#00000050;
+    }
+}

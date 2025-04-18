@@ -1,5 +1,14 @@
 .imageContainer{
     width:100%;
     position: relative;
-    height:400px;
+    height:fit-content;
+    height:650px;
+    img{
+        width:100%;
+    
+     
+        aspect-ratio: 1;
+        object-fit: cover;
+        object-position: top
+    }
 }

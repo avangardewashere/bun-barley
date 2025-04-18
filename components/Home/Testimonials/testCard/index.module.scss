@@ -1,0 +1,17 @@
+.container {
+  width: 258px;
+  height: fit-content;
+  background: rgba(235, 235, 235, 255);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  gap: 10px;
+
+  h3,
+  p {
+    font-size: 16px !important;
+  }
+}
